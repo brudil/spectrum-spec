@@ -1,38 +1,38 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
-
-- [Spectrum Format Specification](#spectrum-format-specification)
-  - [Overview](#overview)
-  - [Format](#format)
-    - [Document/root](#documentroot)
-    - [Subtypes](#subtypes)
-      - [Article subtype](#article-subtype)
-      - [Video subtype](#video-subtype)
-    - [Properties](#properties)
-    - [Sections](#sections)
-    - [Streams](#streams)
-      - [Wrapped Streams](#wrapped-streams)
-    - [Blocks](#blocks)
-      - [Image block](#image-block)
-      - [Video block](#video-block)
-      - [Heading block](#heading-block)
-      - [Text Block](#text-block)
-      - [Quote block](#quote-block)
-    - [Transformers](#transformers)
-      - [Text](#text)
-        - [Markdown](#markdown)
-        - [Inlinedown](#inlinedown)
-        - [Plain text](#plain-text)
-        - [HTML safe](#html-safe)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 # Spectrum Format Specification
 
 Specification for the Spectrum content format.
 
 **Version: 0.1**
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Overview](#overview)
+- [Format](#format)
+  - [Document/root](#documentroot)
+  - [Subtypes](#subtypes)
+    - [Article subtype](#article-subtype)
+    - [Video subtype](#video-subtype)
+  - [Properties](#properties)
+  - [Sections](#sections)
+  - [Streams](#streams)
+    - [Wrapped Streams](#wrapped-streams)
+  - [Blocks](#blocks)
+    - [Image block](#image-block)
+    - [Video block](#video-block)
+    - [Heading block](#heading-block)
+    - [Text Block](#text-block)
+    - [Quote block](#quote-block)
+  - [Transformers](#transformers)
+    - [Text](#text)
+      - [Markdown](#markdown)
+      - [Inlinedown](#inlinedown)
+      - [Plain text](#plain-text)
+      - [HTML safe](#html-safe)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 
 ## Overview
 
