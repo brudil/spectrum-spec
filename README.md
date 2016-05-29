@@ -2,6 +2,7 @@
 
 Specification for the Spectrum content format.
 
+**Version: 0.1**
 
 ## Overview
 
