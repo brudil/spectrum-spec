@@ -74,13 +74,13 @@ Fields:
 - featureVideo: `VideoBlock`
 - stream: `Stream` of sections
 
-### Properties
-
 ### Sections
 
-### Streams
+#### Freeform
 
-#### Wrapped Streams
+#### List
+
+### Streams
 
 ### Blocks
 
@@ -130,14 +130,39 @@ Fields:
 - attributed: `InlinedownTextTransformer`
 
 
-### Transformers
+### Text Transformers
 
-#### Text
+Transformers have a common output: HTML.
+
+- name: `'transformer'`
+- transformer: name of transformer
+- text: string
+
 
 ##### Markdown
 
+- name: `'markdown'`
+
+Transforms Markdown text.
+
 ##### Inlinedown
 
-##### Plain text
+- name: `'inline'`
+
+Transforms inline-level Markdown text. This essentially limits generated elements to anchors, emphasis and strong tags.
+
+##### Plaintext
+
+- name: `'plain'`
+
+No transform.
 
 ##### HTML safe
+
+- name: `'html'`
+
+No transform. HTML directly injected. Does not escape.
+
+## Implementation concepts
+
+### Fields
