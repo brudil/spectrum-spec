@@ -14,22 +14,23 @@ Specification for the Spectrum content format.
   - [Subtypes](#subtypes)
     - [Article subtype](#article-subtype)
     - [Video subtype](#video-subtype)
-  - [Properties](#properties)
-  - [Sections](#sections)
-  - [Streams](#streams)
-    - [Wrapped Streams](#wrapped-streams)
+  - [Sections 📝](#sections-%F0%9F%93%9D)
+    - [Freeform 📝](#freeform-%F0%9F%93%9D)
+    - [List 📝](#list-%F0%9F%93%9D)
+  - [Streams 📝](#streams-%F0%9F%93%9D)
   - [Blocks](#blocks)
     - [Image block](#image-block)
     - [Video block](#video-block)
     - [Heading block](#heading-block)
     - [Text Block](#text-block)
     - [Quote block](#quote-block)
-  - [Transformers](#transformers)
-    - [Text](#text)
+  - [Text Transformers](#text-transformers)
       - [Markdown](#markdown)
       - [Inlinedown](#inlinedown)
-      - [Plain text](#plain-text)
+      - [Plaintext](#plaintext)
       - [HTML safe](#html-safe)
+- [Implementation concepts](#implementation-concepts)
+  - [Fields  📝](#fields--%F0%9F%93%9D)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -74,13 +75,13 @@ Fields:
 - featureVideo: `VideoBlock`
 - stream: `Stream` of sections
 
-### Sections
+### Sections 📝
 
-#### Freeform
+#### Freeform 📝
 
-#### List
+#### List 📝
 
-### Streams
+### Streams 📝
 
 ### Blocks
 
@@ -165,4 +166,4 @@ No transform. HTML directly injected. Does not escape.
 
 ## Implementation concepts
 
-### Fields
+### Fields  📝
